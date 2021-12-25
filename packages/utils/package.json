@@ -1,0 +1,31 @@
+{
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "private": false,
+  "name": "@shadow-walker-test/utils",
+  "version": "0.0.4",
+  "description": "> TODO: description",
+  "author": "shadow-walker-test <testsu30@outlook.com>",
+  "homepage": "https://github.com/shadow-walker-test/shadow-walker-test#readme",
+  "license": "ISC",
+  "main": "src/utils.js",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadow-walker-test/shadow-walker-test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/shadow-walker-test/shadow-walker-test/issues"
+  }
+}

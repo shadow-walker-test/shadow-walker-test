@@ -21,5 +21,8 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "5a747002e5a1e18024bfc8b9dc6b7e85e03f58d6"
+  "gitHead": "5a747002e5a1e18024bfc8b9dc6b7e85e03f58d6",
+  "devDependencies": {
+    "react": "^17.0.2"
+  }
 }
