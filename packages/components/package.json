@@ -19,10 +19,19 @@
     "src"
   ],
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "compile": "rollup -c",
+    "compile:watch": "rollup -c -w"
+  },
+  "dependencies": {
+    "@shadow-walker-test/theme": "^0.0.5"
   },
   "gitHead": "5a747002e5a1e18024bfc8b9dc6b7e85e03f58d6",
   "devDependencies": {
-    "react": "^17.0.2"
+    "@babel/core": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "react": "^17.0.2",
+    "rollup": "^2.62.0",
+    "rollup-plugin-babel": "^4.4.0"
   }
 }

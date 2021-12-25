@@ -1,0 +1,45 @@
+{
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "name": "@shadow-walker-test/docs",
+  "version": "0.0.5",
+  "description": "> TODO: description",
+  "author": "shadow-walker-test <testsu30@outlook.com>",
+  "homepage": "https://github.com/shadow-walker-test/shadow-walker-test#readme",
+  "license": "ISC",
+  "main": "src/docs.js",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadow-walker-test/shadow-walker-test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "storybook": "start-storybook"
+  },
+  "bugs": {
+    "url": "https://github.com/shadow-walker-test/shadow-walker-test/issues"
+  },
+  "dependencies": {
+    "@shadow-walker-test/components": "^0.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@storybook/react": "^6.4.9",
+    "add": "^2.0.6",
+    "babel-loader": "^8.2.3",
+    "mono-ds-docs": "^0.0.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "workspace": "^0.0.1-preview.1",
+    "yarn": "^1.22.17"
+  }
+}

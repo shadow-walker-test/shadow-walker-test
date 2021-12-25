@@ -1,6 +1,6 @@
 {
   "name": "shadow-walker-test",
-  "private": false,
+  "private": true,
   "devDependencies": {
     "lerna": "^4.0.0"
   },
@@ -8,6 +8,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
+  "npmClient": "yarn",
   "workspaces": [
     "packages/*"
   ]
