@@ -18,7 +18,7 @@ export const Button: FC<ButtonProps> = (props) => {
 
   return (
     <button style={buttonStyle}>
-      {children} - {text} - 3243
+      {children} - {text} - 11111
     </button>
   );
 };
