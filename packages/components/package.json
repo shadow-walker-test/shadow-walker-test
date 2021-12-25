@@ -4,29 +4,34 @@
     "registry": "https://registry.npmjs.org/"
   },
   "name": "@shadow-walker-test/components",
-  "private": false,
   "version": "0.0.6",
   "description": "> TODO: description",
   "author": "shadow-walker-test <tetsu30@outlook.com>",
-  "homepage": "",
+  "homepage": "https://github.com/shadow-walker-test/shadow-walker-test#readme",
   "license": "ISC",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "directories": {
-    "lib": "src",
+    "lib": "lib",
     "test": "__tests__"
   },
   "files": [
-    "src"
+    "lib"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadow-walker-test/shadow-walker-test.git"
+  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
     "compile": "rollup -c",
     "compile:watch": "rollup -c -w"
   },
+  "bugs": {
+    "url": "https://github.com/shadow-walker-test/shadow-walker-test/issues"
+  },
   "dependencies": {
     "@shadow-walker-test/theme": "^0.0.6"
   },
-  "gitHead": "5a747002e5a1e18024bfc8b9dc6b7e85e03f58d6",
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@babel/preset-react": "^7.16.5",

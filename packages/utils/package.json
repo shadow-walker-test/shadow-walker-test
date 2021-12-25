@@ -3,29 +3,40 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "private": false,
   "name": "@shadow-walker-test/utils",
   "version": "0.0.6",
   "description": "> TODO: description",
   "author": "shadow-walker-test <testsu30@outlook.com>",
   "homepage": "https://github.com/shadow-walker-test/shadow-walker-test#readme",
   "license": "ISC",
-  "main": "src/utils.js",
+  "main": "dist/index.js",
   "directories": {
-    "lib": "src",
+    "lib": "lib",
     "test": "__tests__"
   },
   "files": [
-    "src"
+    "lib"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shadow-walker-test/shadow-walker-test.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "compile": "rollup -c",
+    "compile:watch": "rollup -c -w"
   },
   "bugs": {
     "url": "https://github.com/shadow-walker-test/shadow-walker-test/issues"
+  },
+  "dependencies": {
+    "@shadow-walker-test/theme": "^0.0.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "react": "^17.0.2",
+    "rollup": "^2.62.0",
+    "rollup-plugin-babel": "^4.4.0"
   }
 }
