@@ -1,0 +1,19 @@
+{
+  "name": "@shadow-walker-test/components",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "shadow-walker-test <tetsu30@outlook.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
