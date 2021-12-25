@@ -5,7 +5,7 @@
   },
   "name": "@shadow-walker-test/components",
   "private": false,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "> TODO: description",
   "author": "shadow-walker-test <tetsu30@outlook.com>",
   "homepage": "",
@@ -24,7 +24,7 @@
     "compile:watch": "rollup -c -w"
   },
   "dependencies": {
-    "@shadow-walker-test/theme": "^0.0.5"
+    "@shadow-walker-test/theme": "^0.0.6"
   },
   "gitHead": "5a747002e5a1e18024bfc8b9dc6b7e85e03f58d6",
   "devDependencies": {

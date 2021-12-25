@@ -4,7 +4,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "name": "@shadow-walker-test/docs",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "> TODO: description",
   "author": "shadow-walker-test <testsu30@outlook.com>",
   "homepage": "https://github.com/shadow-walker-test/shadow-walker-test#readme",
@@ -29,7 +29,7 @@
     "url": "https://github.com/shadow-walker-test/shadow-walker-test/issues"
   },
   "dependencies": {
-    "@shadow-walker-test/components": "^0.0.5"
+    "@shadow-walker-test/components": "^0.0.6"
   },
   "devDependencies": {
     "@babel/core": "^7.16.5",
