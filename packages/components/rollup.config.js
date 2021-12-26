@@ -26,7 +26,13 @@ const plugins = [
 
 export default [
   {
-    external: ['react', 'react-i18next', '@shadow-walker-test/theme', 'antd'],
+    external: [
+      'react',
+      'react/jsx-runtime',
+      'react-i18next',
+      '@shadow-walker-test/theme',
+      'antd',
+    ],
     input: 'src/index.ts',
     plugins,
     output: {
