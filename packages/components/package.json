@@ -4,7 +4,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "name": "@shadow-walker-test/components",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "> TODO: description",
   "author": "shadow-walker-test <tetsu30@outlook.com>",
   "homepage": "https://github.com/shadow-walker-test/shadow-walker-test#readme",
@@ -33,10 +33,10 @@
     "url": "https://github.com/shadow-walker-test/shadow-walker-test/issues"
   },
   "dependencies": {
-    "@shadow-walker-test/core": "^0.0.19",
-    "@shadow-walker-test/hooks": "^0.0.19",
-    "@shadow-walker-test/theme": "^0.0.19",
-    "@shadow-walker-test/utils": "^0.0.19"
+    "@shadow-walker-test/core": "^0.0.20",
+    "@shadow-walker-test/hooks": "^0.0.20",
+    "@shadow-walker-test/theme": "^0.0.20",
+    "@shadow-walker-test/utils": "^0.0.20"
   },
   "peerDependencies": {
     "react": "^17.0.2",
@@ -47,9 +47,9 @@
     "@babel/preset-env": "^7.14.7",
     "@babel/preset-react": "^7.16.5",
     "@babel/preset-typescript": "^7.16.5",
+    "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.1.1",
-    "@rollup/plugin-babel": "^5.3.0",
     "@types/lodash": "^4.14.169",
     "lodash": "^4.17.21",
     "react": "^17.0.2",
