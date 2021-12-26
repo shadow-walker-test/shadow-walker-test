@@ -1,3 +1,24 @@
+// {
+//   "presets": [
+//     "@babel/preset-react",
+//     "@babel/preset-typescript",
+//     [
+//       "@babel/preset-env",
+//       {
+//         "modules": false
+//       }
+//     ]
+//   ]
+// }
+
 {
-  "presets": ["@babel/preset-react"]
+  "presets": [
+    [
+      "@babel/preset-env",
+      { "loose": true, "useBuiltIns": "usage", "corejs": 3 }
+    ],
+    "@babel/preset-react",
+
+    ["@babel/preset-typescript"]
+  ]
 }
