@@ -4,7 +4,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "name": "@shadow-walker-test/components",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "> TODO: description",
   "author": "shadow-walker-test <tetsu30@outlook.com>",
   "homepage": "https://github.com/shadow-walker-test/shadow-walker-test#readme",
@@ -33,10 +33,10 @@
     "url": "https://github.com/shadow-walker-test/shadow-walker-test/issues"
   },
   "dependencies": {
-    "@shadow-walker-test/core": "^0.0.22",
-    "@shadow-walker-test/hooks": "^0.0.22",
-    "@shadow-walker-test/theme": "^0.0.22",
-    "@shadow-walker-test/utils": "^0.0.22"
+    "@shadow-walker-test/core": "^0.0.23",
+    "@shadow-walker-test/hooks": "^0.0.23",
+    "@shadow-walker-test/theme": "^0.0.23",
+    "@shadow-walker-test/utils": "^0.0.23"
   },
   "peerDependencies": {
     "antd": "^4.15.5",
