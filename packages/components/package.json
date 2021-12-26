@@ -4,7 +4,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "name": "@shadow-walker-test/components",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "> TODO: description",
   "author": "shadow-walker-test <tetsu30@outlook.com>",
   "homepage": "https://github.com/shadow-walker-test/shadow-walker-test#readme",
@@ -33,18 +33,17 @@
     "url": "https://github.com/shadow-walker-test/shadow-walker-test/issues"
   },
   "dependencies": {
-    "@shadow-walker-test/core": "^0.0.20",
-    "@shadow-walker-test/hooks": "^0.0.20",
-    "@shadow-walker-test/theme": "^0.0.20",
-    "@shadow-walker-test/utils": "^0.0.20"
+    "@shadow-walker-test/core": "^0.0.21",
+    "@shadow-walker-test/hooks": "^0.0.21",
+    "@shadow-walker-test/theme": "^0.0.21",
+    "@shadow-walker-test/utils": "^0.0.21"
   },
   "peerDependencies": {
+    "antd": "^4.15.5",
     "react": "^17.0.2",
-    "react-i18next": "^11.11.1",
-    "antd": "^4.15.5"
+    "react-i18next": "^11.11.1"
   },
   "devDependencies": {
-    "antd": "^4.15.5",
     "@babel/core": "^7.16.5",
     "@babel/preset-env": "^7.14.7",
     "@babel/preset-react": "^7.16.5",
@@ -53,6 +52,7 @@
     "@rollup/plugin-commonjs": "^21.0.1",
     "@rollup/plugin-node-resolve": "^13.1.1",
     "@types/lodash": "^4.14.169",
+    "antd": "^4.15.5",
     "lodash": "^4.17.21",
     "react": "^17.0.2",
     "react-i18next": "^11.11.1",
