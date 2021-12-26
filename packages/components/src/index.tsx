@@ -2,12 +2,15 @@
 
 import React, { FC } from 'react';
 import theme from '@shadow-walker-test/theme';
+import { useTranslation } from 'react-i18next';
 
 export interface ButtonProps {
   text: string;
 }
 
 export const Button: FC<ButtonProps> = (props) => {
+  const { t }: { t: any } = useTranslation();
+
   const { children, text } = props;
 
   const buttonStyle = {
@@ -18,7 +21,7 @@ export const Button: FC<ButtonProps> = (props) => {
 
   return (
     <button style={buttonStyle}>
-      {children} - {text} - 11111
+      {children} - {t(text)} - 11111
     </button>
   );
 };
