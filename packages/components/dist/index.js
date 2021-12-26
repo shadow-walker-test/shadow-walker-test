@@ -3,7 +3,12 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var antd = require('antd');
+var React = require('react');
 var reactI18next = require('react-i18next');
+
+function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+
+var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
 
 function _objectWithoutPropertiesLoose(source, excluded) {
   if (source == null) return {};
@@ -51,7 +56,7 @@ var SwButton = function SwButton(_ref) {
   var _useTranslation = reactI18next.useTranslation(),
       t = _useTranslation.t;
 
-  return React.createElement(antd.Button, props, (textTx ? t(textTx) : text) || props.children, " - from sw");
+  return React__default["default"].createElement(antd.Button, props, (textTx ? t(textTx) : text) || props.children, " - from sw");
 };
 
 exports.SwButton = SwButton;
