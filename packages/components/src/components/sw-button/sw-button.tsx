@@ -2,9 +2,9 @@ import { Button } from 'antd';
 import { FC } from 'react';
 import { useTranslation } from 'react-i18next';
 
-import VsButtonProps from './vs-button.props';
+import SwButtonProps from './sw-button.props';
 
-const VsButton: FC<VsButtonProps> = ({ text, textTx, ...props }) => {
+const SwButton: FC<SwButtonProps> = ({ text, textTx, ...props }) => {
   const { t }: { t: any } = useTranslation();
 
   return (
@@ -14,4 +14,4 @@ const VsButton: FC<VsButtonProps> = ({ text, textTx, ...props }) => {
   );
 };
 
-export default VsButton;
+export default SwButton;

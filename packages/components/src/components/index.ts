@@ -1,1 +1,1 @@
-export * from './vs-button';
+export * from './sw-button';

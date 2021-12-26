@@ -1,0 +1,1 @@
+{"version":3,"file":"sw-button.props.d.ts","sourceRoot":"","sources":["../../../../src/components/sw-button/sw-button.props.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,WAAW,EAAE,MAAM,MAAM,CAAC;AAEnC,MAAM,CAAC,OAAO,WAAW,aAAc,SAAQ,WAAW;IACxD,IAAI,CAAC,EAAE,MAAM,CAAC;IACd,MAAM,CAAC,EAAE,MAAM,CAAC;CACjB"}

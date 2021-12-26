@@ -1,6 +1,6 @@
 import { ButtonProps } from 'antd';
 
-export default interface VsButtonProps extends ButtonProps {
+export default interface SwButtonProps extends ButtonProps {
   text?: string;
   textTx?: string;
 }

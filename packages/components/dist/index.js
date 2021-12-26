@@ -43,7 +43,7 @@ function _objectWithoutProperties(source, excluded) {
 
 var _excluded = ["text", "textTx"];
 
-var VsButton = function VsButton(_ref) {
+var SwButton = function SwButton(_ref) {
   var text = _ref.text,
       textTx = _ref.textTx,
       props = _objectWithoutProperties(_ref, _excluded);
@@ -54,5 +54,5 @@ var VsButton = function VsButton(_ref) {
   return React.createElement(antd.Button, props, (textTx ? t(textTx) : text) || props.children, " - from sw");
 };
 
-exports.VsButton = VsButton;
+exports.SwButton = SwButton;
 //# sourceMappingURL=index.js.map
