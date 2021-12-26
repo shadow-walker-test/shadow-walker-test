@@ -29,9 +29,6 @@
   "bugs": {
     "url": "https://github.com/shadow-walker-test/shadow-walker-test/issues"
   },
-  "dependencies": {
-    "@shadow-walker-test/theme": "^0.0.16"
-  },
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@babel/preset-react": "^7.16.5",
