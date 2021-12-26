@@ -29,3 +29,5 @@ export const Button: FC<ButtonProps> = (props) => {
 export function add(x: number, y: number): number {
   return x + y;
 }
+
+export * from 'react-i18next';
