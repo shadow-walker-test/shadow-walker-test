@@ -4,7 +4,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "name": "@shadow-walker-test/components",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "> TODO: description",
   "author": "shadow-walker-test <tetsu30@outlook.com>",
   "homepage": "https://github.com/shadow-walker-test/shadow-walker-test#readme",
@@ -31,20 +31,20 @@
     "url": "https://github.com/shadow-walker-test/shadow-walker-test/issues"
   },
   "dependencies": {
-    "@shadow-walker-test/theme": "^0.0.15"
+    "@shadow-walker-test/theme": "^0.0.16"
   },
   "peerDependencies": {
-    "react-i18next": "^11.11.1",
-    "react": "^17.0.2"
+    "react": "^17.0.2",
+    "react-i18next": "^11.11.1"
   },
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@babel/preset-react": "^7.16.5",
     "@rollup/plugin-typescript": "^8.3.0",
     "react": "^17.0.2",
+    "react-i18next": "^11.11.1",
     "rollup": "^2.62.0",
     "rollup-plugin-babel": "^4.4.0",
-    "typescript": "^4.5.4",
-    "react-i18next": "^11.11.1"
+    "typescript": "^4.5.4"
   }
 }
