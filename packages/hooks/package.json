@@ -10,6 +10,7 @@
   "homepage": "https://github.com/shadow-walker-test/shadow-walker-test#readme",
   "license": "ISC",
   "main": "dist/index.js",
+  "typings": "./dist/types/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -24,7 +25,8 @@
   "scripts": {
     "tscinit": "tsc --init",
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "compile": "rollup -c",
+    "compile": "rollup -c && tsc",
+    "tsc": "tsc",
     "compile:watch": "rollup -c -w"
   },
   "bugs": {

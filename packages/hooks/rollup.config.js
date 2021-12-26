@@ -35,7 +35,8 @@ export default [
     output: {
       dir: `dist`,
       format: 'cjs',
-      preserveModules: true,
+      sourcemap: true,
+      // preserveModules: true,
     },
   },
 ];
