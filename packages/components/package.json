@@ -31,8 +31,10 @@
     "url": "https://github.com/shadow-walker-test/shadow-walker-test/issues"
   },
   "dependencies": {
-    "@shadow-walker-test/theme": "^0.0.14",
-    "react-i18next": "^11.15.1"
+    "@shadow-walker-test/theme": "^0.0.14"
+  },
+  "peerDependencies": {
+    "react-i18next": "^11.11.1"
   },
   "devDependencies": {
     "@babel/core": "^7.16.5",

@@ -19,4 +19,3 @@ function add(x, y) {
     return x + y;
 }
 exports.add = add;
-(0, tslib_1.__exportStar)(require("react-i18next"), exports);
