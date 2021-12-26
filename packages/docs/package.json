@@ -31,7 +31,9 @@
   "dependencies": {
     "@shadow-walker-test/components": "^0.0.19",
     "@shadow-walker-test/theme": "^0.0.19",
-    "@shadow-walker-test/utils": "^0.0.19"
+    "@shadow-walker-test/utils": "^0.0.19",
+    "@shadow-walker-test/core": "^0.0.19",
+    "@shadow-walker-test/hooks": "^0.0.19"
   },
   "devDependencies": {
     "@babel/core": "^7.16.5",

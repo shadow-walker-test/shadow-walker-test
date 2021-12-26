@@ -1,21 +1,13 @@
-// {
-//   "presets": [
-//     "@babel/preset-react",
-//     "@babel/preset-typescript",
-//     [
-//       "@babel/preset-env",
-//       {
-//         "modules": false
-//       }
-//     ]
-//   ]
-// }
-
 {
   "presets": [
     [
       "@babel/preset-env",
-      { "loose": true, "useBuiltIns": "usage", "corejs": 3 }
+      {
+        "modules": false,
+        "targets": {
+          "ie": "11"
+        }
+      }
     ],
     "@babel/preset-react",
 

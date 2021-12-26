@@ -1,21 +1,35 @@
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.add = exports.Button = void 0;
-const tslib_1 = require("tslib");
-const jsx_runtime_1 = require("react/jsx-runtime");
-const theme_1 = (0, tslib_1.__importDefault)(require("@shadow-walker-test/theme"));
-const react_i18next_1 = require("react-i18next");
-const Button = (props) => {
-    const { t } = (0, react_i18next_1.useTranslation)();
-    const { children, text } = props;
-    const buttonStyle = {
-        color: theme_1.default.palette.white,
-        backgroundColor: theme_1.default.palette.primary,
-        padding: theme_1.default.spacing.small,
-    };
-    return ((0, jsx_runtime_1.jsxs)("button", Object.assign({ style: buttonStyle }, { children: [children, " - ", t(text), " - 11111"] }), void 0));
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var React = require('react');
+var theme = require('@shadow-walker-test/theme');
+var reactI18next = require('react-i18next');
+
+function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+
+var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
+var theme__default = /*#__PURE__*/_interopDefaultLegacy(theme);
+
+var Button = function Button(props) {
+  var _useTranslation = reactI18next.useTranslation(),
+      t = _useTranslation.t;
+
+  var children = props.children,
+      text = props.text;
+  var buttonStyle = {
+    color: theme__default["default"].palette.white,
+    backgroundColor: theme__default["default"].palette.primary,
+    padding: theme__default["default"].spacing.small
+  };
+  return React__default["default"].createElement("button", {
+    style: buttonStyle
+  }, children, " - ", t(text), " - 11111");
 };
-exports.Button = Button;
 function add(x, y) {
-    return x + y;
+  return x + y;
 }
+
+exports.Button = Button;
 exports.add = add;
+//# sourceMappingURL=index.js.map

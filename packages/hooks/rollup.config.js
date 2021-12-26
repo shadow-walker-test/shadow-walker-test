@@ -1,18 +1,17 @@
 import babel from '@rollup/plugin-babel';
 import resolve from '@rollup/plugin-node-resolve';
-// import typescript from '@rollup/plugin-typescript';
 import commonjs from '@rollup/plugin-commonjs';
-// import { terser } from 'rollup-plugin-terser';
 
 const extensions = ['.js', '.jsx', '.es6', '.es', '.mjs', '.ts', '.tsx'];
 const babelConfig = {
   extensions,
-  exclude: /node_modules/,
+  exclude: 'node_modules/**',
   babelHelpers: 'bundled',
   comments: false,
 };
 
 const plugins = [
+  babel(babelConfig),
   resolve({
     module: true,
     jsnext: true,
@@ -21,22 +20,18 @@ const plugins = [
     extensions,
     modulesOnly: true,
   }),
-  babel(babelConfig),
-  // babel({ exclude: 'node_modules/**' }),
-  // typescript({ tsconfig: './tsconfig.json' }),
-  // commonjs(),
-  // terser(),
+  commonjs(),
 ];
 
 export default [
   {
+    external: ['react', 'react-i18next', '@shadow-walker-test/theme', 'lodash'],
     input: 'src/index.ts',
     plugins,
     output: {
       dir: `dist`,
       format: 'cjs',
       sourcemap: true,
-      // preserveModules: true,
     },
   },
 ];
