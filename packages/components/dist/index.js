@@ -2,34 +2,57 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var React = require('react');
-var theme = require('@shadow-walker-test/theme');
+var antd = require('antd');
 var reactI18next = require('react-i18next');
 
-function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
 
-var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
-var theme__default = /*#__PURE__*/_interopDefaultLegacy(theme);
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
 
-var Button = function Button(props) {
+  return target;
+}
+
+function _objectWithoutProperties(source, excluded) {
+  if (source == null) return {};
+
+  var target = _objectWithoutPropertiesLoose(source, excluded);
+
+  var key, i;
+
+  if (Object.getOwnPropertySymbols) {
+    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
+
+    for (i = 0; i < sourceSymbolKeys.length; i++) {
+      key = sourceSymbolKeys[i];
+      if (excluded.indexOf(key) >= 0) continue;
+      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
+      target[key] = source[key];
+    }
+  }
+
+  return target;
+}
+
+var _excluded = ["text", "textTx"];
+
+var VsButton = function VsButton(_ref) {
+  var text = _ref.text,
+      textTx = _ref.textTx,
+      props = _objectWithoutProperties(_ref, _excluded);
+
   var _useTranslation = reactI18next.useTranslation(),
       t = _useTranslation.t;
 
-  var children = props.children,
-      text = props.text;
-  var buttonStyle = {
-    color: theme__default["default"].palette.white,
-    backgroundColor: theme__default["default"].palette.primary,
-    padding: theme__default["default"].spacing.small
-  };
-  return React__default["default"].createElement("button", {
-    style: buttonStyle
-  }, children, " - ", t(text), " - 11111");
+  return React.createElement(antd.Button, props, (textTx ? t(textTx) : text) || props.children, " - from sw");
 };
-function add(x, y) {
-  return x + y;
-}
 
-exports.Button = Button;
-exports.add = add;
+exports.VsButton = VsButton;
 //# sourceMappingURL=index.js.map
